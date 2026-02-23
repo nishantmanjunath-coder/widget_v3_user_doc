@@ -5,6 +5,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<PageWidgetBuilder />} />
         <Route path="/widget-builder" element={<PageWidgetBuilder />} />
       </Routes>
     </BrowserRouter>
