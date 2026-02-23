@@ -84,11 +84,13 @@ export default function PageWidgetBuilder() {
         Already have a design? Select <strong>"Add widget file"</strong> to upload an existing .widget file. This is great for updating previous work or collaborating with team members.
       </p>
 
-      <div className="rounded-2xl overflow-hidden shadow-elevated">
-        <img
-        src="/intro.jpeg"
-        className="w-full max-w-md h-auto rounded-2xl"
-        />
+      <div className="flex justify-center my-4">
+        <div className="rounded-2xl overflow-hidden shadow-elevated">
+          <img
+            src="/intro.jpeg"
+            className="w-full max-w-xl h-auto rounded-2xl"
+          />
+        </div>
       </div>
 
       {/* EDITOR TOUR */}
