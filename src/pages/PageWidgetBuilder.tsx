@@ -30,7 +30,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/widgets.jpeg"
+        src="/widgets.jpeg"
         className="w-full h-full object-cover"
         />
       </div>
@@ -46,7 +46,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/widget_dashboard.png"
+        src="/widget_dashboard.png"
         className="w-full h-full object-cover"
         />
       </div>
@@ -86,7 +86,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden shadow-elevated">
         <img
-        src="public_widget/intro.jpeg"
+        src="/intro.jpeg"
         className="w-full max-w-md h-auto rounded-2xl"
         />
       </div>
@@ -110,7 +110,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/schema.jpeg"
+        src="/schema.jpeg"
         className="w-full h-full object-cover"
         />
       </div>
@@ -138,7 +138,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/data_controller.jpeg"
+        src="/data_controller.jpeg"
         className="w-full h-full object-cover"
         />
       </div>
@@ -159,7 +159,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/default.jpeg"
+        src="/default.jpeg"
         className="w-full h-full object-cover"
         />
       </div>
@@ -179,7 +179,7 @@ export default function PageWidgetBuilder() {
 
       <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
         <img
-        src="public_widget/json.jpeg"
+        src="/json.jpeg"
         className="w-full h-full object-cover"
         />
       </div>
