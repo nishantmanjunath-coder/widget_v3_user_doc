@@ -51,46 +51,49 @@ export default function PageWidgetBuilder() {
         />
       </div>
 
-      <h3 className="text-xl font-semibold mt-8">
-        1. Just Ask for It (AI Generation)
-      </h3>
+      <div className="pl-6 md:pl-8 border-l-2 border-gray-200 space-y-8">
+        <section>
+          <h3 className="text-xl font-semibold mt-8 first:mt-0">
+            1. Just Ask for It (AI Generation)
+          </h3>
+          <p className="my-4">
+            As soon as you open the Widget Builder, you are greeted with a prompt box. This is where the magic starts. Simply type what you need in plain English.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 my-6">
+            <li>
+              <strong>Example: </strong><em>"Create a flight status card that shows departure and arrival times, terminal info, and a 'Check Status' button."</em>
+            </li>
+            <li>
+              <strong>Pro Tip: </strong>Define interactions too! <em>"When the user clicks 'Details', trigger the 'fetch_details' event."</em>
+            </li>
+          </ul>
+        </section>
 
-      <p className="my-4">
-        As soon as you open the Widget Builder, you are greeted with a prompt box. This is where the magic starts. Simply type what you need in plain English.
-      </p>
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            2. Start from Scratch
+          </h3>
+          <p className="my-4">
+            Prefer a blank canvas? Select <strong>"Start from scratch"</strong> to open an empty editor. This is perfect for advanced users who have a specific vision and want to build their widget component by component.
+          </p>
+        </section>
 
-      <ul className="list-disc pl-5 space-y-2 my-6">
-        <li>
-          <strong>Example: </strong><em>"Create a flight status card that shows departure and arrival times, terminal info, and a 'Check Status' button."</em>
-        </li>
-        <li>
-          <strong>Pro Tip: </strong>Define interactions too! <em>"When the user clicks 'Details', trigger the 'fetch_details' event."</em>
-        </li>
-      </ul>
-
-      <h3 className="text-xl font-semibold mt-8">
-        2. Start from Scratch
-      </h3>
-
-      <p className="my-4">
-        Prefer a blank canvas? Select <strong>"Start from scratch"</strong> to open an empty editor. This is perfect for advanced users who have a specific vision and want to build their widget component by component.
-      </p>
-
-      <h3 className="text-xl font-semibold mt-8">
-        3. Add Widget File
-      </h3>
-
-      <p className="my-4">
-        Already have a design? Select <strong>"Add widget file"</strong> to upload an existing .widget file. This is great for updating previous work or collaborating with team members.
-      </p>
-
-      <div className="flex justify-center my-4">
-        <div className="rounded-2xl overflow-hidden shadow-elevated">
-          <img
-            src="/intro.jpeg"
-            className="w-full max-w-xl h-auto rounded-2xl"
-          />
-        </div>
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            3. Add Widget File
+          </h3>
+          <p className="my-4">
+            Already have a design? Select <strong>"Add widget file"</strong> to upload an existing .widget file. This is great for updating previous work or collaborating with team members.
+          </p>
+          <div className="flex justify-center my-4">
+            <div className="rounded-2xl overflow-hidden shadow-elevated">
+              <img
+                src="/intro.jpeg"
+                className="w-full max-w-xl h-auto rounded-2xl"
+              />
+            </div>
+          </div>
+        </section>
       </div>
 
       {/* EDITOR TOUR */}
@@ -102,88 +105,88 @@ export default function PageWidgetBuilder() {
         Once your widget is initialized, you’ll be taken to the <strong>Widget Editor</strong>. This powerful workspace is designed to give you complete control.
       </p>
 
-      <h3 className="text-xl font-semibold mt-8">
-        The Visual Stage (Right Panel)
-      </h3>
+      <div className="pl-6 md:pl-8 border-l-2 border-gray-200 space-y-8">
+        <section>
+          <h3 className="text-xl font-semibold mt-8 first:mt-0">
+            The Visual Stage (Right Panel)
+          </h3>
+          <p className="my-6">
+            This is your real-time preview. As you type code or change settings, this panel updates instantly to show you exactly what your customers will see on their screens.
+          </p>
+          <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
+            <img
+              src="/schema.jpeg"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </section>
 
-      <p className="my-6">
-        This is your real-time preview. As you type code or change settings, this panel updates instantly to show you exactly what your customers will see on their screens.
-      </p>
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            The Code Studio (Left Panel)
+          </h3>
+          <p className="my-6">
+            This is the engine room. Here, you define the structure, styling, and logic of your widget.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 my-6">
+            <li><strong>Full Control: </strong>Customize every pixel, from background colors to text alignment.</li>
+            <li><strong>Smart Editing: </strong>The editor understands widget syntax, helping you build error-free code.</li>
+          </ul>
+        </section>
 
-      <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
-        <img
-        src="/schema.jpeg"
-        className="w-full h-full object-cover"
-        />
-      </div>
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            The Component Library
+          </h3>
+          <p className="my-6">
+            Need a button, a text box, or a divider? You don't need to write it from memory.
+          </p>
+          <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
+            <img
+              src="/data_controller.jpeg"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <ul className="list-disc pl-5 space-y-2 my-6">
+            <li>Click the <strong>"Components" </strong>button at the top right.</li>
+            <li>Browse a library of pre-built elements.</li>
+            <li><strong>Copy & Paste: </strong>Simply copy the component you need and paste it directly into your code editor. It renders instantly!</li>
+          </ul>
+        </section>
 
-      <h3 className="text-xl font-semibold mt-8">
-        The Code Studio (Left Panel)
-      </h3>
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            The Data Controller (Bottom Left)
+          </h3>
+          <p className="my-6">
+            Located below the code editor, this section manages the "brains" of your widget:
+          </p>
+          <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
+            <img
+              src="/default.jpeg"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <ul className="list-disc pl-5 space-y-2 my-6">
+            <li><strong>Schema Tab: </strong>Define the <strong>variables</strong> your widget accepts (e.g., {"{{flight_number}}"}). This tells the widget to expect real data from the bot.</li>
+            <li><strong>Default Tab: </strong>Set "dummy data" to test how your widget looks before it goes live (e.g., setting the flight number to "AB123" just for the preview).</li>
+          </ul>
+        </section>
 
-      <p className="my-6">
-        This is the engine room. Here, you define the structure, styling, and logic of your widget.
-      </p>
-
-      <ul className="list-disc pl-5 space-y-2 my-6">
-        <li><strong>Full Control: </strong>Customize every pixel, from background colors to text alignment.</li>
-        <li><strong>Smart Editing: </strong>The editor understands widget syntax, helping you build error-free code.</li>
-      </ul>
-
-      <h3 className="text-xl font-semibold mt-8">
-        The Component Library
-      </h3>
-
-      <p className="my-6">
-        Need a button, a text box, or a divider? You don't need to write it from memory.
-      </p>
-
-      <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
-        <img
-        src="/data_controller.jpeg"
-        className="w-full h-full object-cover"
-        />
-      </div>
-
-      <ul className="list-disc pl-5 space-y-2 my-6">
-        <li>Click the <strong>"Components" </strong>button at the top right.</li>
-        <li>Browse a library of pre-built elements.</li>
-        <li><strong>Copy & Paste: </strong>Simply copy the component you need and paste it directly into your code editor. It renders instantly!</li>
-      </ul>
-
-      <h3 className="text-xl font-semibold mt-8">
-        The Data Controller (Bottom Left)
-      </h3>
-
-      <p className="my-6">
-        Located below the code editor, this section manages the "brains" of your widget:
-      </p>
-
-      <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
-        <img
-        src="/default.jpeg"
-        className="w-full h-full object-cover"
-        />
-      </div>
-
-      <ul className="list-disc pl-5 space-y-2 my-6">
-        <li><strong>Schema Tab: </strong>Define the <strong>variables</strong> your widget accepts (e.g., {"{{flight_number}}"}). This tells the widget to expect real data from the bot.</li>
-        <li><strong>Default Tab: </strong>Set "dummy data" to test how your widget looks before it goes live (e.g., setting the flight number to "AB123" just for the preview).</li>
-      </ul>
-
-      <h3 className="text-xl font-semibold mt-8">
-        JSON View (Bottom Right)
-      </h3>
-
-      <p className="my-6">
-        Want to see the raw data structure? Click the small <strong>JSON</strong> tab at the bottom right to expand a view of the underlying code that powers your widget.
-      </p>
-
-      <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
-        <img
-        src="/json.jpeg"
-        className="w-full h-full object-cover"
-        />
+        <section>
+          <h3 className="text-xl font-semibold mt-8">
+            JSON View (Bottom Right)
+          </h3>
+          <p className="my-6">
+            Want to see the raw data structure? Click the small <strong>JSON</strong> tab at the bottom right to expand a view of the underlying code that powers your widget.
+          </p>
+          <div className="rounded-2xl overflow-hidden my-8 shadow-elevated">
+            <img
+              src="/json.jpeg"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </section>
       </div>
 
       {/* INTEGRATION */}
